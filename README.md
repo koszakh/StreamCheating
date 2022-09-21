@@ -1,7 +1,7 @@
 # Оглавление
 
-[Описание] (#description)
-[Установка и запуск] (#launch)
+[Описание](#description)
+[Установка и запуск](#launch)
 
 <a name="description">
 ## Описание
