@@ -7,13 +7,6 @@ NORM_VIEWERS_COUNT_FOR_PERIOD = 100
 PEAK_STREAM_VIEWERS_GROWTH = 1000 # Можно заменить на динамическое значение этой переменной. Например: Пиковое количество зрителей / определенный коэффициент
 DATA_PATH = "data/dataset.xlsx"
 
-def test(table_path):
-    table = pd.read_excel(table_path)
-    viewers_list = table["viewers"]
-    value = 12270
-    index = table.index[table["viewers"]==value].tolist()[0]
-    print(table)
-    print(value, index)
 
 def viewers_analysis(table_path):
     table = pd.read_excel(table_path)
